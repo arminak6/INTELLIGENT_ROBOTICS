@@ -1,0 +1,11 @@
+<launch>
+  <!-- Robot Node -->
+  <node name="robot_node" pkg="intro_tutorial" type="robot_node" output="screen"/>
+
+  <!-- Charging Stations -->
+  <node name="charging_station_1" pkg="intro_tutorial" type="charging_station_client" output="screen" args="1"/>
+  <node name="charging_station_2" pkg="intro_tutorial" type="charging_station_client" output="screen" args="2"/>
+  <node name="charging_station_3" pkg="intro_tutorial" type="charging_station_client" output="screen" args="3"/>
+  <node name="charging_station_4" pkg="intro_tutorial" type="charging_station_client" output="screen" args="4"/>
+  <node name="charging_station_5" pkg="intro_tutorial" type="charging_station_client" output="screen" args="5"/>
+</launch>
