@@ -1,0 +1,15 @@
+# Goal
+std_msgs/Header goal_header
+int32 max_battery_level
+
+---
+
+# Feedback
+std_msgs/Header feedback_header
+int32 current_battery_level
+
+---
+
+# Result
+std_msgs/Header result_header
+bool charging_complete
