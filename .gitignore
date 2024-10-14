@@ -1,1 +1,11 @@
+# Ignore CMakeLists.txt
+CMakeLists.txt
 
+# Ignore all PDF files
+*.pdf
+
+# Ignore the "cmake" directory
+cmake/
+
+# Ignore all XML files
+*.xml
